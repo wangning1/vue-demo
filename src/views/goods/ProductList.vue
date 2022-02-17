@@ -1,8 +1,11 @@
 <template>
+ <div class="app-container">
+
   <div class="hello">
     <h1>{{ msg }}</h1>
     <el-button type="primary" @click="handleClick()">点击</el-button>
   </div>
+ </div>
 </template>
 
 <script>
@@ -10,7 +13,7 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      msg: '商品列表'
     }
   },
   methods:{

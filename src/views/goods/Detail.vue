@@ -1,16 +1,18 @@
 <template>
-  <div class="hello">
+ <div class="app-container">
+       <div class="hello2">
     <h1>{{ msg }}</h1>
     <el-button type="primary" @click="handleClick()">点击</el-button>
   </div>
+ </div>
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'HelloWorld2',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      msg: '详情'
     }
   },
   methods:{

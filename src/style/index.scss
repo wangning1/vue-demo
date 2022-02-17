@@ -1,0 +1,45 @@
+body {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+    height: 100%;
+}
+  
+  html {
+    box-sizing: border-box;
+  }
+
+  //main-container全局样式
+.app-main{
+    min-height: 100%
+  }
+
+
+
+  #app {
+
+    // 主体区域
+    .main-container {
+      min-height: 100%;
+      transition: margin-left .28s;
+      margin-left: 180px;
+    }
+  
+     // 侧边栏
+    .sidebar-container {
+      transition: width .28s;
+      width: 180px !important;
+      height: 100%;
+      position: fixed;
+    //   font-size: 0px;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      z-index: 1001;
+      overflow: hidden;
+    }
+  
+  }
+  
+  
